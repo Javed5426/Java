@@ -9,7 +9,7 @@ class Javat_29{
      Contactnumber = contact;
     }
     void display(){
-        System.out.println("Name: "+Name);
+        System.out.println("Name: ".concat(Name));//cancatinate string
         System.out.println("Age: "+Age);
         System.out.println("Contact Number: "+Contactnumber);
     }
